@@ -12,7 +12,3 @@ type NewsletterRepository interface {
 	DeleteSchedule(idNewsletter int64) error
 	SaveSchedule(newsletter Newsletter) error
 }
-
-type ArticleRepository interface {
-	FindArticleById(id string) dto.ArticleDto
-}

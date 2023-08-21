@@ -6,4 +6,3 @@ import (
 )
 
 var newsletterRepository domain.NewsletterRepository = mysql.NewNewsletterDao()
-var articleRepository domain.ArticleRepository = mysql.NewArticleDao()
